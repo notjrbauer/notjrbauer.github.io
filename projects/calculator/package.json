@@ -24,5 +24,9 @@
   },
   "files": [
     "index.js"
-  ]
+  ],
+  "dependencies": {
+    "geval": "^2.1.1",
+    "vdom": "0.0.22"
+  }
 }
