@@ -1,0 +1,28 @@
+{
+  "name": "calculator",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Day-1 Calculator w/ vdom",
+  "license": "MIT",
+  "repository": "notjrbauer/calculator",
+  "author": {
+    "name": "notjrbauer",
+    "email": "notjrbauer@gmail.com",
+    "url": "notjrbauer.github.io"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "vdom",
+    "calculator",
+    "javascript"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^6.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
