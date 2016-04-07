@@ -61,3 +61,17 @@ test('clocks should stop', function (assert) {
   Clock.start(clock)
   Clock.tick(clock)
 })
+
+test('clocks are sometimes passed dates', function (assert) {
+  var date = new Date()
+  var hours = date.getUTCHours()
+  var minutes = date.getUTCMinutes()
+  var seconds = date.getUTCSeconds()
+
+  var parsedDate = Clock.fromDateTime(date)
+  assert.equal(hours, parsedDate.hours)
+  assert.equal(minutes, parsedDate.minutes)
+  assert.equal(seconds, parsedDate.seconds)
+
+  assert.end()
+})

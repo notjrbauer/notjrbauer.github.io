@@ -6,7 +6,7 @@ module.exports = {
 }
 
 function noop () {
-  return function render() {
+  return function render () {
     return 'nooop yet'
   }
 }
