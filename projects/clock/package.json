@@ -1,0 +1,33 @@
+{
+  "name": "clock",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "clock",
+  "license": "MIT",
+  "repository": "notjrbauer/clock",
+  "author": {
+    "name": "notjrbauer",
+    "email": "notjrbauer@gmail.com",
+    "url": "notjrbauer.github.io"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "clock"
+  ],
+  "devDependencies": {
+    "standard": "^6.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "observ": "^0.2.0",
+    "observ-struct": "^6.0.0",
+    "weakmap-event": "^2.0.6",
+    "weakmap-shim": "^1.1.0",
+    "xtend": "^4.0.1"
+  }
+}
